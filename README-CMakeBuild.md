@@ -4,7 +4,10 @@ WIP
 
 ## vcpkg
 
-VC++をインストールしておく。
+* VC++をインストール
+    * ATL
+    * MFC
+
 vcpkgでboostとQT5を導入する。
 
 ```
@@ -12,7 +15,7 @@ vcpkgでboostとQT5を導入する。
 > cd vcpkg
 > bootstrap-vcpkg.bat
 > vcpkg install boost:x64-windows # 長い
-> vcpkg install qt5:x64-windows # 長い
+> vcpkg install qt5:x64-windows # 長い (ATLとMFCが必用)
 ```
 
 環境変数 VCPKG_DIR=`cloneしたフォルダ`

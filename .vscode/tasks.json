@@ -1,0 +1,26 @@
+{
+    // See https://go.microsoft.com/fwlink/?LinkId=733558
+    // for the documentation about the tasks.json format
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "label": "add oepnvr driver",
+            "type": "shell",
+            "command": "${env:STEAM_DIR}/steamapps/common/SteamVR/bin/win64/vrpathreg.exe",
+            "args": [
+                "adddriver",
+                "${workspaceFolder}/vrinputemulator"
+            ],
+            "problemMatcher": []
+        },
+        {
+            "label": "show openvr driver",
+            "type": "shell",
+            "command": "${env:STEAM_DIR}/steamapps/common/SteamVR/bin/win64/vrpathreg.exe",
+            "args": [
+                "show"
+            ],
+            "problemMatcher": []
+        }
+    ]
+}

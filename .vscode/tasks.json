@@ -21,6 +21,18 @@
                 "show"
             ],
             "problemMatcher": []
+        },
+        {
+            "label": "virtual controller",
+            "type": "shell",
+            "command": "cmd.exe",
+            "args": [
+                "${workspaceFolderBasename}\\scripts\\create_virtual_controller.bat"
+            ],
+            "options": {
+                "pwd": "${workspaceFolder}/vrinputemulator/bin/win64"
+            },
+            "problemMatcher": []
         }
     ]
 }

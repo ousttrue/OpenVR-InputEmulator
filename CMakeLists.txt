@@ -15,4 +15,4 @@ SET(OPENVR_INCLUDE
     ${CMAKE_CURRENT_LIST_DIR}/third-party/MinHook.src/include
     $ENV{VCPKG_DIR}/installed/x64-windows/include
     )
-SUBDIRS(vrinputemulator)
+SUBDIRS(lib_vrinputemulator vrinputemulator client_commandline)

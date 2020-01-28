@@ -11,7 +11,7 @@
             "program": "${workspaceFolder}/vrinputemulator/bin/win64/client_overlay.exe",
             "args": [],
             "stopAtEntry": false,
-            "cwd": "${workspaceFolder}",
+            "cwd": "${workspaceFolder}/vrinputemulator/bin/win64",
             "environment": [
                 {
                     "name": "PATH",

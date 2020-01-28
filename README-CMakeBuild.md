@@ -1,12 +1,12 @@
 # CMake(+VSCode) でビルドできるようにした
 
-WIP
+## VC++
+
+* VisualStudioをインストール
+    * C++
+    * MFCを有効にする
 
 ## vcpkg
-
-* VC++をインストール
-    * ATL
-    * MFC
 
 vcpkgでboostとQT5を導入する。
 
@@ -15,9 +15,15 @@ vcpkgでboostとQT5を導入する。
 > cd vcpkg
 > bootstrap-vcpkg.bat
 > vcpkg install boost:x64-windows # 長い
-> vcpkg install qt5:x64-windows # 長い (ATLとMFCが必用)
+> vcpkg install qt5:x64-windows # 長い (MFCが必用)
 ```
 
 環境変数 VCPKG_DIR=`cloneしたフォルダ`
 
 ## VSCode でフォルダを開いてビルドする
+
+`vrinputemulator/bin/win64` にビルド物が集まる。
+
+    * driver_inputemulator.dll
+    * client_commandline.exe
+    * client_overlay.exe

@@ -4,5 +4,10 @@
 /Release/*
 /Debug/*
 /.vs/
-/vrinputemulator/bin/
 *.log
+*.dll
+*.dll.manifest
+*.exe
+*.exe.manifest
+*.pdb
+*.ilk

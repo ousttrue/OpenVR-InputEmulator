@@ -1,0 +1,24 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "client_overlay",
+            "type": "cppvsdbg",
+            "request": "launch",
+            "program": "${workspaceFolder}/vrinputemulator/bin/win64/client_overlay.exe",
+            "args": [],
+            "stopAtEntry": false,
+            "cwd": "${workspaceFolder}",
+            "environment": [
+                {
+                    "name": "PATH",
+                    "value": "${env:VCPKG_DIR}\\installed\\x64-windows\\debug\\bin;${env:PATH}"
+                }
+            ],
+            "externalConsole": false
+        }
+    ]
+}

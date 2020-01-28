@@ -22,6 +22,7 @@ TARGET_LINK_LIBRARIES(${TARGET_NAME} PRIVATE
 
 # copy dependencies
 FILE(GLOB DLL_DEBUG
+    ${CMAKE_CURRENT_LIST_DIR}/../openvr/bin/win64/openvr_api.dll
     $ENV{VCPKG_DIR}/installed/x64-windows/debug/bin/boost_regex-*.dll
     $ENV{VCPKG_DIR}/installed/x64-windows/debug/bin/boost_date_time-*.dll
     $ENV{VCPKG_DIR}/installed/x64-windows/bin/boost_regex-*.dll

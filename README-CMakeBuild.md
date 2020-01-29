@@ -27,3 +27,8 @@ vcpkgでboostとQT5を導入する。
     * driver_inputemulator.dll
     * client_commandline.exe
     * client_overlay.exe
+
+## openvr update
+
+* v1.0.11
+* v1.0.12 https://github.com/ValveSoftware/openvr/issues/724

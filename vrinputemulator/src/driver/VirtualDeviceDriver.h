@@ -2,7 +2,7 @@
 
 #include <map>
 #include <mutex>
-#include <openvr_driver.h>
+#include "openvr_driver_compat.h"
 #include <vrinputemulator_types.h>
 #include "utils/DevicePropertyValueVisitor.h"
 

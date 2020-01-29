@@ -3,7 +3,7 @@
         {
             "name": "Win32",
             "includePath": [
-                "${workspaceFolder}/**",
+                "${workspaceFolder}/openvr/headers",
                 "${env:VCPKG_DIR}/installed/x64-windows/include/**"
             ],
             "defines": [

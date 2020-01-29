@@ -466,7 +466,7 @@ void ServerDriver::openvr_poseUpdate(uint32_t unWhichDevice, vr::DriverPose_t & 
 }
 
 void ServerDriver::openvr_proximityEvent(uint32_t unWhichDevice, bool bProximitySensorTriggered) {
-	vr::VRServerDriverHost()->ProximitySensorState(unWhichDevice, bProximitySensorTriggered);
+	vr::VRServerDriverHost_004()->ProximitySensorState(unWhichDevice, bProximitySensorTriggered);
 }
 
 void ServerDriver::openvr_vendorSpecificEvent(uint32_t unWhichDevice, vr::EVREventType eventType, vr::VREvent_Data_t & eventData, double eventTimeOffset) {
